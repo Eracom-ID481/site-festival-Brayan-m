@@ -24,20 +24,20 @@ function drawTimetable(day) {
 
     // Définir les lieux de la grille rangées.
     timetable.addLocations([
-      "Le Romandie",
-      "El Lokal",
-      "Bad Bonn",
-      "Rote Fabrik",
-      "Burning man",
+      "Black rock centre",
+      "Rue néptune",
+      "Rue saturne",
+      "Rue mercure",
+      "Rue mars",
     ]);
 
     // Premier événement:
 
     timetable.addEvent(
       // Artiste nom
-      "Purple Mountains",
+      "Kekra",
       // Lieu
-      "El Lokal",
+      "Rue néptune",
       // Date et heure de début (année, mois, jour, heure, minute)
       new Date(2020, 10, 17, 11, 20),
       // Date et heure de fin (année, mois, jour, heure, minute)
@@ -48,9 +48,9 @@ function drawTimetable(day) {
 
     timetable.addEvent(
       // Artiste nom
-      "Mountains",
+      "Soprano",
       // Lieu
-      "Burning man",
+      "Rue mars",
       // Date et heure de début (année, mois, jour, heure, minute)
       new Date(2020, 10, 17, 16, 20),
       // Date et heure de fin (année, mois, jour, heure, minute)
@@ -61,8 +61,8 @@ function drawTimetable(day) {
 
     // Deuxième événement
     timetable.addEvent(
-      "Bruce Springsteen",
-      "Bad Bonn",
+      "Booba",
+      "Rue saturne",
       new Date(2020, 10, 17, 13, 00),
       new Date(2020, 10, 17, 15, 45),
       { url: "../artiste.html" }
