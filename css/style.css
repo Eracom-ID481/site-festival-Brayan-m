@@ -1,14 +1,20 @@
-/* Style des filtres de la grille horraire */
-#jours {
-  padding: 1rem;
-}
-#jours ul {
-  display: flex;
-  justify-content: space-between;
+.fondImage {
+  background: url(../fond.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#jours ul li.active,
-#jours ul li:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.fondImage * {
+  color: #fff;
+}
+
+header {
+  min-height: 67vh;
+  padding-top: 4rem;
+}
+
+header h2 {
+  text-align: right;
 }

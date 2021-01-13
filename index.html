@@ -11,27 +11,130 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/vendor/timetablejs.css" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="css/vendor/timetablejs.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/vendor/timetable.js" async defer></script>
     <script src="js/app.js" async defer></script>
   </head>
   <body>
-    <div id="jours">
-      <ul>
-        <!-- La classe définissant le jour doit toujours être en deuxième position -->
-        <li class="filter vendredi active">Vendredi</li>
-        <li class="filter samedi">Samedi</li>
-        <li class="filter dimanche">Dimanche</li>
-      </ul>
-    </div>
-    <div id="timetable" class="timetable"></div>
+    <div class="fondImage">
+      <header class="container">
+        <div class="row">
+          <h1 class="col-sm-7">
+            Burning man
+          </h1>
+          <h2 class="col-sm-5">
+            Festival du désert de Black Rock
+            28.08 - 12.09 2021
 
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+          </h2>
+        </div><!-- .row -->
+      </header>
+    </div><!-- .fondImage -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!--<a class="navbar-brand" href="#">Navbar</a>-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dates 
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Artistes 
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Kekra</a></li>
+                <li><a class="dropdown-item" href="#">Damso</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Soprano</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catégories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Musique</a></li>
+                <li><a class="dropdown-item" href="#">Danse</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Théatre</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Lieux
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+
+          </ul>
+
+          <!-- grille horaire-->
+          
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <!--
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          -->
+
+        </div>
+      </div>
+    </nav>
+    
+
+    <!--
+    <nav class="container">
+      <div class="row">
+        navigation à fair…
+        <ul>
+          <li>Dates</li>
+          <li>Artistes</li>
+          <li>Catégories</li>
+          <li>Lieux</li>
+        </ul>
+      </nav>
+    -->
   </body>
 </html>
