@@ -35,7 +35,7 @@ function drawTimetable(day) {
 
     timetable.addEvent(
       // Artiste nom
-      "Kekra",
+      "Monolink",
       // Lieu
       "Rue néptune",
       // Date et heure de début (année, mois, jour, heure, minute)
@@ -48,7 +48,7 @@ function drawTimetable(day) {
 
     timetable.addEvent(
       // Artiste nom
-      "Soprano",
+      "Carl Cox",
       // Lieu
       "Rue mars",
       // Date et heure de début (année, mois, jour, heure, minute)
@@ -61,7 +61,7 @@ function drawTimetable(day) {
 
     // Deuxième événement
     timetable.addEvent(
-      "Booba",
+      "A.D.D",
       "Rue saturne",
       new Date(2020, 10, 17, 13, 00),
       new Date(2020, 10, 17, 15, 45),
@@ -74,19 +74,24 @@ function drawTimetable(day) {
   // Deuxième jour
   else if (day == "samedi") {
     timetable.setScope(10, 00);
-    timetable.addLocations(["Les Docks", "Le Bourg", "PTR", "Fri-Son"]);
+    timetable.addLocations([
+      "Rue saturne",
+      "Rue mars",
+      "Black rock centre",
+      "Rue néptune",
+    ]);
 
     timetable.addEvent(
-      "Booba",
-      "Le Bourg",
+      "Swiss contempoary dance",
+      "Rue saturne",
       new Date(2020, 10, 17, 10, 20),
       new Date(2020, 10, 17, 15, 30),
       { url: "../artiste.html" }
     );
 
     timetable.addEvent(
-      "Aphex Twin",
-      "PTR",
+      "Les twins Hip-hop",
+      "Black rock centre",
       new Date(2020, 10, 17, 18, 30),
       new Date(2020, 10, 17, 19, 45),
       { url: "../artiste.html" }
@@ -97,17 +102,22 @@ function drawTimetable(day) {
   // Troisième jour
   else if (day == "dimanche") {
     timetable.setScope(10, 00);
-    timetable.addLocations(["Les Docks", "Le Bourg", "PTR", "Fri-Son"]);
+    timetable.addLocations([
+      "Rue mercure",
+      "Rue saturne",
+      "Black rock centre",
+      "Rue néptune",
+    ]);
     timetable.addEvent(
       "The Mountain Goats",
-      "Le Bourg",
+      "Rue mercure",
       new Date(2020, 10, 17, 11, 00),
       new Date(2020, 10, 17, 12, 00),
       { url: "../artiste.html" }
     );
     timetable.addEvent(
       "James McMurtry",
-      "PTR",
+      "Rue saturne",
       new Date(2020, 10, 17, 14, 00),
       new Date(2020, 10, 17, 15, 00),
       { url: "../artiste.html" }
